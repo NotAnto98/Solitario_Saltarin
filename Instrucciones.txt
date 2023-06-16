@@ -1,0 +1,15 @@
+INSTRUCCIONES
+El juego solitario saltarín comienza con un tablero 7x7 con 32 piezas. Para jugar en este tablero solo tienes que pulsar las piezas que quieras mover y ejecutar un salto. Para ello, es necesario que haya una pieza colindante a otra y, en la misma dirección, un hueco. Si se cumple esta restricción puedes clicar en la pieza y después en el hueco para efectuar el movimiento.
+
+BOTONES DISPONIBLES
+- Crear tablero: Al pulsarlo entras en modo creando tablero (lo diferenciarás por su color rojo). En este modo solo puedes clicar en el tablero, al clicar en una pieza se cambia a un hueco, y viceversa. Para salir de este modo solo tienes que volver a pulsar el botón de Creando Tablero.
+- Instrucciones: Muestra las instrucciones.
+- Reiniciar: Al pulsarlo vuelves a crear un nuevo juego con el tablero inicial.
+- Movimientos: Si te atascas y no sabes identificar que piezas se pueden mover, puedes pulsarlo para que te indique qué piezas tienen movimientos disponibles. También puedes pulsarlo con una pieza seleccionada para conocer los movimientos disponibles de esa pieza.
+- Verificacion: Al pulsar este botón se comprobará si el tablero actual tiene solución, así ahorraras tiempo en saber si tu tablero tiene solución.
+- Pista: Si tu tablero actual tiene solución y pides una pista, se te marcará la pieza que al moverla te llevara a la solución. Esto puede tardar un poco 
+(dependiendo del tablero), por favor, sé paciente.
+- Deshacer: Si te has arrepentido de realizar un movimiento puedes deshacerlo pulsando este botón, pero no funcionará si acabas de crear un tablero nuevo.
+- Modo entrenamiento: En el recuadro marcado puedes insertar un número (entre 1 y 32) y al pulsar en Crear se generará un tablero aleatorio con ese número de piezas que siempre tendra solución. Úsalo para desarrollar habilidades y destreza en el juego.
+- Guardar: Con este botón podemos nombrar el tablero actual y se guardará para poder cargarlo posteriormente gracias a la acción de Cargar. Este archivo se guardará en la carpeta "save files".
+- Cargar: Gracias a esto podemos cargar un tablero. Se nos abrirá una ventana en la que, al pulsar en browse, nos llevará a la carpeta "save files" para seleccionar el archivo a cargar. Esto actualizará el cuadro de ruta con la ruta del archivo, por lo que no hay que escribir en él.
